@@ -1,0 +1,34 @@
+﻿.navbar-inverse
+    {
+        background-color: #18160d;
+        border-color: #7340b2;
+    }
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #f3ea97;
+}
+.course {
+    list-style: none;
+}
+.course > li {
+    position :relative;
+    margin-bottom : 30px;
+
+}
+    .course > li.date {
+        text-align: center;
+        background-color: #7340b2;
+        color: white;
+        width: 60px;
+        border-radius: 8px;
+    }
+.course >li.details{
+    position :absolute;
+    top:0;
+    left:70px;
+}

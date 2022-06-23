@@ -14,15 +14,15 @@
     </ul>
 </div>
 <ul class="course">
-    @foreach (var item in Model)
+    @foreach (var coure in Model)
     {
         <li>
             <div class="date">
-                <div class="month">@item.Datetime.ToString("MM")</div>
-                <div class="day">@item.Datetime.ToString("dd")</div>
+                <div class="month">@coure.Datetime.ToString("MM")</div>
+                <div class="day">@coure.Datetime.ToString("dd")</div>
             </div>
-            <div class="details"><span class="lecturer">@item.Lecturer.Name</span>
-                                 <span class="category">@item.Category.Name</span>
+            <div class="details"><span class="lecturer">@coure.Lecturer.Name</span>
+                                 <span class="category">@coure.Category.Name</span>
             </div>
         </li>
     }
